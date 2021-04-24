@@ -1,6 +1,39 @@
-{% extends 'layout.html' %}
+<!DOCTYPE html>
+<html lang="en">
 
-    {% block body %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blogpost.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://kit.fontawesome.com/22b10d10ac.js" crossorigin="anonymous"></script>
+    <title>Computricks - Tech related queries, tips and tricks</title>
+</head>
+
+<body>
+    <nav class="max-width-1 m-auto">
+        <div class="nav-left">
+            <!-- <img src="/img/complogo.jpg" alt="logo here"> -->
+            <span>Computricks</span>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input type="text" class="form-input" name="query" id="searchinp" placeholder="Search articles">
+                <button class="btn-search"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <hr class="max-width-1 m-auto">
+
     <div class="blogpost-content max-width-1 m-auto">
         <h1>Title of the post</h1>
         <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur laboriosam quae nostrum
@@ -25,28 +58,28 @@
     <div class="home-articles max-width-1 m-auto">
         <h1>People who read this also read:</h1>
         <div class="article-row">
-            <div class="home-article-blogpost">
-                <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+            <div class="home-article">
+                <img src="/img/thumbnail.png" alt="article">
                 <div class="home-article-content">
-                    <a href="/blog">
+                    <a href="/blog.html">
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                     </a>
                     <span>Abhey</span> | <span>date</span>
                 </div>
             </div>
-            <div class="home-article-blogpost">
-                <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+            <div class="home-article">
+                <img src="/img/thumbnail.png" alt="article">
                 <div class="home-article-content">
-                    <a href="/blog">
+                    <a href="/blog.html">
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                     </a>
                     <span>Abhey</span> | <span>date</span>
                 </div>
             </div>
-            <div class="home-article-blogpost">
-                <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+            <div class="home-article">
+                <img src="/img/thumbnail.png" alt="article">
                 <div class="home-article-content">
-                    <a href="/blog">
+                    <a href="/blog.html">
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
                     </a>
                     <span>Abhey</span> | <span>date</span>
@@ -55,4 +88,9 @@
         </div>
     </div>
 
-    {% endblock %}
+    <footer class="max-width-1 m-auto">
+        Copyright &copy computericks.com 2021-22 Maintained by Abhey
+    </footer>
+</body>
+
+</html>

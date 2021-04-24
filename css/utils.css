@@ -37,17 +37,6 @@
     font-weight: bold;
     padding: 10px;
 }
-.btn-primary {
-    width: auto;
-    background-color: blue;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    font-size: 25px;
-    padding: 8px;
-    border: none;
-    border-radius: 6px;
-    margin: 25px;
-}
 .w-50{
     width: 49%;
 }
