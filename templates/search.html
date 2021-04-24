@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+
+    {% block body %}
+    <div class="home-articles max-width-1 m-auto">
+        <h1>Search Results : </h1>
+        <div class="home-article">
+            <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+            <div class="home-article-content">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <span>author</span> <span>date</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+            <div class="home-article-content">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <span>author</span> <span>date</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+            <div class="home-article-content">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <span>author</span> <span>date</span>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}

@@ -1,0 +1,58 @@
+{% extends 'layout.html' %}
+
+    {% block body %}
+    <div class="blogpost-content max-width-1 m-auto">
+        <h1>Title of the post</h1>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur laboriosam quae nostrum
+            sapiente eos! In tempore id quaerat ullam aperiam quae necessitatibus? Repudiandae doloribus dolor sequi eos
+            nisi eum cumque numquam vel, corporis velit! Velit enim, iste autem pariatur laborum, dolor quod maiores
+            reiciendis quibusdam voluptate illum ea nam?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat natus harum tenetur. Mollitia placeat
+            labore, incidunt ab molestiae explicabo esse, nobis exercitationem accusamus, eius doloribus consequuntur
+            iure aliquid quis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, explicabo quidem
+            voluptates tempora tenetur laboriosam. Vel commodi, explicabo in alias deserunt veniam eveniet incidunt est
+            eaque maiores ipsum ratione illo rerum unde tempora. Animi, esse accusamus. Quis incidunt quia minima
+            voluptates debitis architecto ipsa mollitia sunt aliquid voluptatem id autem quam obcaecati, ducimus, optio
+            culpa, delectus eius expedita? Assumenda accusantium odio ab cupiditate cumque quaerat dicta? Consequatur
+            obcaecati, culpa aperiam velit, ratione corrupti, nihil dolores et perspiciatis tenetur quae! Excepturi,
+            eius. Necessitatibus officiis rem assumenda sequi rerum, ipsam harum quasi corrupti nisi eaque aliquid
+            cupiditate asperiores, quia, dolore deleniti vel.
+        </article>
+    </div>
+
+    <hr class="max-width-1 m-auto">
+
+    <div class="home-articles max-width-1 m-auto">
+        <h1>People who read this also read:</h1>
+        <div class="article-row">
+            <div class="home-article-blogpost">
+                <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+                <div class="home-article-content">
+                    <a href="/blog">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                    </a>
+                    <span>Abhey</span> | <span>date</span>
+                </div>
+            </div>
+            <div class="home-article-blogpost">
+                <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+                <div class="home-article-content">
+                    <a href="/blog">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                    </a>
+                    <span>Abhey</span> | <span>date</span>
+                </div>
+            </div>
+            <div class="home-article-blogpost">
+                <img src="{{ url_for('static', filename='img/thumbnail.png') }}" alt="article">
+                <div class="home-article-content">
+                    <a href="/blog">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                    </a>
+                    <span>Abhey</span> | <span>date</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}

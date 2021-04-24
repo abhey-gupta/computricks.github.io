@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.form-input{
+    padding: 8px 8px;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+
+.btn-search{
+    background: none;
+    padding: 0 5px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn {
+    width: 100%;
+    margin: 10px auto;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn-primary {
+    width: auto;
+    background-color: blue;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    margin: 25px;
+}
+.w-50{
+    width: 49%;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+    height: 100vh;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+}
+.contact-heading    {
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0;
+    font-weight: bolder;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.input-field span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+    margin: 10px 0;
+}
+.input-field input{
+    padding: 2px;
+    font-size: 25px;
+}
+.nameinp{
+    display: flex;
+    justify-content: space-between;
+}

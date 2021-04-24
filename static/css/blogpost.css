@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.blogpost-content{
+    padding: 35px 0px;
+}
+.blogpost-content h1{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+.blogpost-content article{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+.article-row{
+    display: flex;
+    flex-direction: row;
+}
+.home-article-blogpost {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-article-blogpost img{
+    width: 200px;
+    border-radius: 20px;
+}
